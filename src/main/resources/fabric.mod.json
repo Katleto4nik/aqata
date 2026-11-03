@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "violethitboxes",
+  "version": "${version}",
+  "name": "VioletHitboxes",
+  "description": "Purple custom hitboxes, cobweb outlines, and a small client-side interaction-range adjustment.",
+  "authors": ["VioletHitboxes"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.violethitboxes.VioletHitboxesClient"]
+  },
+  "mixins": [
+    "violethitboxes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
